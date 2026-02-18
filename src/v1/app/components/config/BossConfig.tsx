@@ -13,7 +13,7 @@ export const BossConfig = () => {
     <>
       <FormGroup>
         <FormLabel>Archetype</FormLabel>
-        <ArchetypeSelector includeUnselected index={0} />
+        <ArchetypeSelector includeUnselected includeBossArchetypes index={0} />
       </FormGroup>
       <Divider>Stances</Divider>
       <Grid container spacing={1} direction={{ xs: "column", sm: "row" }}>
