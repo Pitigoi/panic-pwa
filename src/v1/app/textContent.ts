@@ -271,7 +271,7 @@ export const forms: Form[] = [
     key: "S",
     ability: {
       description:
-        "At the start of each turn choose a song; Iron, Power or Speed. You gain three tokens of the chosen type and each of your allies gain 1 of that type",
+        "At the start of your turn, choose your song: Iron, Power, or Speed. You gain 3 tokens of the chosen type, and each of your allies gains 1 token of the chosen type.",
     },
     actionDice: [Dice.d8, Dice.d6, Dice.d6, Dice.d4],
     forbiddenActionDice: [Dice.d8, Dice.d4],
