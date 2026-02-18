@@ -21,17 +21,17 @@ export default defineConfig({
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/logo192.png",
+            src: "/panic-pwa/logo192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/logo512.png",
+            src: "/panic-pwa/logo512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/logo512.png",
+            src: "/panic-pwa/logo512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",
